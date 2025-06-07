@@ -84,7 +84,7 @@ subnet 10.10.20.0 netmask 255.255.255.0 {
   range 10.10.20.21 10.10.20.100;
   option domain-name-servers 10.10.20.1;
   option subnet-mask 255.255.255.0;
-  option routers 10.10.20..1;
+  option routers 10.10.20.1;
   option broadcast-address 10.10.20.255;
   default-lease-time 600;
   max-lease-time 7220;
